@@ -1,0 +1,4 @@
+# gal/min -> L/s
+flow_rate_gal_per_min = float(input("Enter the flow rate in gallons per minute (gal/min): "))
+flow_rate_L_per_s = flow_rate_gal_per_min * 3.78541 / 60
+print(f"The flow rate in liters per second (L/s) is: {flow_rate_L_per_s:.3f} L/s")
